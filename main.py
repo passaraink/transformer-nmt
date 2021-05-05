@@ -144,7 +144,7 @@ def main():
     if not os.path.exists("weights"):
         os.mkdir("weights")
 
-    for epoch in range(1000):
+    for epoch in range(20):
         print("Entering epoch : %d" % epoch)
         model.train()
         run_epoch(
